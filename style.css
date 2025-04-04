@@ -24,9 +24,15 @@ body {
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 
   padding: 0 60px;
   margin-bottom: 73px;
@@ -44,9 +50,15 @@ body {
 }
 
 .services ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 50px;
   margin: 0;
   padding: 0;
@@ -74,10 +86,10 @@ body {
 }
 
 .banner img {
-  max-height: 400px;
+  height: 400px;
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .greetings {
@@ -140,7 +152,8 @@ body {
 .appeal__block img {
   width: 8px;
   height: 8px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .appeal__block span {
@@ -172,21 +185,37 @@ body {
   padding: 0;
   list-style: none;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 23px;
 }
 
 .contacts-social li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
 }
 
 .contacts-social a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
 
   text-decoration: none;
@@ -239,16 +268,16 @@ body {
 
 .banner-footer {
   max-height: 300px;
+  
   margin-bottom: 40px;
-  background-color: #eaf0f8;
   text-align: center;
 }
 
 .banner-footer img {
-  max-height: 300px;
+  height: 100%;
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .logo-footer {
@@ -272,8 +301,14 @@ body {
   padding: 0;
   list-style: none;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 12px;
 }
 
